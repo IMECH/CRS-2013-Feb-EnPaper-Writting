@@ -3,8 +3,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 导 言 区 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{amsmath,fancyhdr,graphicx,appendix,lastpage,extramarks,array}
 \usepackage{listings}
-\usepackage[usenames,dvipsnames]{color}
-
+\usepackage{xcolor}
+\usepackage{attachfile2}
 % 定义页边距[左  =1in,右   =1in,上 =1.2in,下=1in]
 \usepackage[left=0.8in,right=0.8in,top=1.2in,bottom=1in]{geometry}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -151,6 +151,6 @@ I would like to thank LIU Mou-Bin.
 %.........................................................................
 \appendix
 \appendixpage                           % 附录
-\section{Latex Code}                    % 附录 A
+\section{\textattachfile[color=red]{main.tex}{Latex Code}}                    % 附录 A
 \lstinputlisting{main.tex}
 \end{document} 
